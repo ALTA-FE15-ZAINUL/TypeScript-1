@@ -10,7 +10,7 @@ function isArmstrongNumber(number: number): boolean {
   return number === sum;
 }
 
-// output dari masing2 angka
+// output dari masing2 angka / masukan
 console.log(isArmstrongNumber(153)); //true
 console.log(isArmstrongNumber(9)); //true
 console.log(isArmstrongNumber(10)); //false
