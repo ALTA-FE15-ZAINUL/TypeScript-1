@@ -1,4 +1,4 @@
-function dragonOfLoowater(dragonHead: number[], knightHeight: number[]) {
+function hadsDragonr(dragonHead: number[], knightHeight: number[]) {
   let heightSum = 0;
 
   let newDragon = dragonHead.sort((a, b) => a - b);
@@ -29,7 +29,7 @@ function dragonOfLoowater(dragonHead: number[], knightHeight: number[]) {
   return;
 }
 
-dragonOfLoowater([5, 4], [7, 8, 4]); //11
-dragonOfLoowater([15, 10], [5]); //knight fall
-dragonOfLoowater([7, 2], [4, 3, 1, 2]); //knight fall
-dragonOfLoowater([7, 2], [2, 1, 8, 5]); //10
+hadsDragonr([5, 4], [7, 8, 4]); //11
+hadsDragonr([15, 10], [5]); //knight fall
+hadsDragonr([7, 2], [4, 3, 1, 2]); //knight fall
+hadsDragonr([7, 2], [2, 1, 8, 5]); //10
